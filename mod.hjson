@@ -1,17 +1,21 @@
 // file name very used in logic like template-block.
-name: "template"
+name: "fr"
 
-displayName: "Mod Template"
-repo: "Fat-Bird-Owner/Mindustry-mod-template-hjson"
-subtitle: ""
-author: ""
+displayName: "Factorial: [accent[]]Reprise[[]]"
+repo: "Fat-Bird-Owner/factorial-reprise"
+subtitle: "[grey[]]Siligone"
 
-description: ""
+author: "Fat Bird's Owner"
+description: "
+Resprites a number of blocks such as:[orange[]]
+- Serpulo production blocks
 
+"
+
+hidden: true
 iosCompatible: true
 version: "v1"
-minGameVersion: "154.3"
+minGameVersion: "159.7"
 dependencies: []
-hidden: false
 
 contentOrder:[]
