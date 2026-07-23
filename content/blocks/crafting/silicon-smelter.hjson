@@ -1,5 +1,5 @@
 updateEffectSpread: 0
-updateEffectChance: 0.65
+updateEffectChance: 0.5
 
 updateEffect: {
 type: ParticleEffect
