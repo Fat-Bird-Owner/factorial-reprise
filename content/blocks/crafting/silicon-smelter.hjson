@@ -1,0 +1,25 @@
+updateEffectSpread: 0
+updateEffectChance: 0.65
+
+updateEffect: {
+type: ParticleEffect
+interp: sineOut
+  
+colorFrom: 7f7f7fff
+colorTo: 87878700
+lightColor: 767676ff
+  
+cone: 22.5
+baseRotation: 45
+lightScl: 0
+  
+length: 35
+sizeTo: 6
+layer: 114
+lifetime: 120
+particles: 1
+}
+
+drawer: {
+type: DrawDefault
+}
