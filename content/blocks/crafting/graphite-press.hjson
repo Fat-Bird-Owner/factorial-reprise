@@ -1,0 +1,11 @@
+drawer: [
+{
+type: DrawDefault
+}
+{
+type: DrawGlowRegion
+suffix: "-heat"
+color: ff795e
+alpha: 0.5
+}
+]
