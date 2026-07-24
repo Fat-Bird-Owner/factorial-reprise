@@ -14,7 +14,7 @@ suffix: "-crusher"
 
 rotation: 90
 xScl: 1.15
-yScl: 1.20
+yScl: 1.15
 
 growX: -0.15
 growY: -0.15
@@ -23,13 +23,13 @@ type: reload
 
 ops: [
 {
-op: curve
-interp: bounceOut
-}
-{
 op: compress
 start: 0
 end: 0.4
+}
+{
+op: curve
+interp: bounceOut
 }
 ]
 }
