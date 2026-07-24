@@ -1,6 +1,25 @@
+outlineRadius: 0
 drawer: [
 {
 type: DrawDefault
+}
+{
+type: DrawBlockParts
+
+parts: [
+{
+type: RegionPart
+suffix: "-crusher"
+xScl: 1.25
+yScl: 1.25
+
+growX: -0.25
+growY: -0.25
+progress: heat
+
+}
+]
+
 }
 {
 type: DrawGlowRegion
