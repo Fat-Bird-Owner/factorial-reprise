@@ -19,7 +19,8 @@ yScl: 1.20
 growX: -0.20
 growY: -0.20
 progress: {
-type: recoil
+type: warmup
+
 ops: [
 {
 op: curve
