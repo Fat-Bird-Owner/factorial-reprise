@@ -1,10 +1,7 @@
-updateEffectSpread: 0
-updateEffectChance: 0.25
-
-updateEffect: {
+craftEffect: {
 type: ParticleEffect
 interp: sineOut
-particles: 3
+particles: 6
 
 colorFrom: 7f7f7fff
 colorTo: 87878700
@@ -20,14 +17,3 @@ layer: 114
 lifetime: 120
 particles: 1
 }
-
-drawer: [
-{
-type: DrawDefault
-}
-{
-type: DrawGlowRegion
-suffix: "-top"
-color: ffd37fff
-}
-]
