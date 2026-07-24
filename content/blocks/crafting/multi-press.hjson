@@ -18,11 +18,11 @@ y: 5.5
 
 outline: false
 rotation: 90
-xScl: 1.5
-yScl: 1.575
+xScl: 1.6
+yScl: 1.6
 
-growX: -0.5
-growY: -0.5
+growX: -0.6
+growY: -0.6
 growProgress: {
 type: reload
 
@@ -48,11 +48,11 @@ suffix: "-piston"
 mirror: false
 y: -5.5
 rotation: 90
-xScl: 1.5
-yScl: 1.575
+xScl: 1.6
+yScl: 1.6
 
-growX: -0.5
-growY: -0.5
+growX: -0.6
+growY: -0.6
 outline: false
 growProgress: {
 type: reload
@@ -81,11 +81,11 @@ x: -5.5
 
 outline: false
 rotation: 90
-xScl: 1.5
-yScl: 1.5
+xScl: 1.6
+yScl: 1.6
 
-growX: -0.5
-growY: -0.5
+growX: -0.6
+growY: -0.6
 growProgress: {
 type: reload
 
@@ -113,11 +113,11 @@ x: 5.5
 
 outline: false
 rotation: 90
-xScl: 1.5
-yScl: 1.5
+xScl: 1.6
+yScl: 1.6
 
-growX: -0.5
-growY: -0.5
+growX: -0.6
+growY: -0.6
 growProgress: {
 type: reload
 
@@ -144,11 +144,11 @@ mirror: false
 
 outline: false
 rotation: 90
-xScl: 1.575
-yScl: 1.575
+xScl: 1.6
+yScl: 1.6
 
-growX: -0.575
-growY: -0.575
+growX: -0.6
+growY: -0.6
 growProgress: {
 type: reload
 
