@@ -16,11 +16,11 @@ y: 5.5
 
 outline: false
 rotation: 90
-xScl: 1.57
-yScl: 1.57143
+xScl: 1.575
+yScl: 1.575
 
-growX: -0.571429
-growY: -0.571429
+growX: -0.575
+growY: -0.575
 growProgress: {
 type: reload
 
@@ -46,12 +46,12 @@ suffix: "-piston"
 mirror: false
 y: -5.5
 rotation: 90
-xScl: 1.57
-yScl: 1.57143
+xScl: 1.575
+yScl: 1.575
 
+growX: -0.575
+growY: -0.575
 outline: false
-growX: -0.571429
-growY: -0.571429
 growProgress: {
 type: reload
 
@@ -79,43 +79,11 @@ x: -5.5
 
 outline: false
 rotation: 90
-xScl: 1.57
-yScl: 1.57143
+xScl: 1.575
+yScl: 1.575
 
-growX: -0.571429
-growY: -0.571429
-growProgress: {
-type: reload
-
-ops: [
-{
-op: compress
-start: 0.2
-end: 0.45
-}
-{
-op: curve
-interp: slope
-}
-]
-}
-
-
-
-}
-{
-type: RegionPart
-suffix: "-piston"
-mirror: false
-x: 5.5
-
-outline: false
-rotation: 90
-xScl: 1.57
-yScl: 1.57143
-
-growX: -0.571429
-growY: -0.571429
+growX: -0.575
+growY: -0.575
 growProgress: {
 type: reload
 
@@ -139,22 +107,54 @@ interp: slope
 type: RegionPart
 suffix: "-piston"
 mirror: false
+x: 5.5
 
 outline: false
 rotation: 90
-xScl: 1.57
-yScl: 1.57143
+xScl: 1.575
+yScl: 1.575
 
-growX: -0.571429
-growY: -0.571429
+growX: -0.575
+growY: -0.575
 growProgress: {
 type: reload
 
 ops: [
 {
 op: compress
-start: 0.4
-end: 0.65
+start: 0.5
+end: 0.75
+}
+{
+op: curve
+interp: slope
+}
+]
+}
+
+
+
+}
+{
+type: RegionPart
+suffix: "-piston"
+mirror: false
+
+outline: false
+rotation: 90
+xScl: 1.575
+yScl: 1.575
+
+growX: -0.575
+growY: -0.575
+growProgress: {
+type: reload
+
+ops: [
+{
+op: compress
+start: 0.7
+end: 0.95
 }
 {
 op: curve
