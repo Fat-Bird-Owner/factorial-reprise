@@ -1,0 +1,166 @@
+fullOverride: "graphite-press"
+outlineRadius: 0
+drawer: [
+{
+type: DrawDefault
+}
+{
+type: DrawBlockParts
+
+parts: [
+{
+type: RegionPart
+suffix: "-piston"
+mirror: false
+y: 5.5
+rotation: 90
+xScl: 1.57
+yScl: 1.57143
+
+growX: -0.571429
+growY: -0.571429
+growProgress: {
+type: reload
+
+ops: [
+{
+op: curve
+interp: bounceOut
+}
+{
+op: compress
+start: 0
+end: 0.5
+}
+]
+}
+
+
+
+}
+{
+type: RegionPart
+suffix: "-piston"
+mirror: false
+y: -5.5
+rotation: 90
+xScl: 1.57
+yScl: 1.57143
+
+growX: -0.571429
+growY: -0.571429
+growProgress: {
+type: reload
+
+ops: [
+{
+op: curve
+interp: bounceOut
+}
+{
+op: compress
+start: 0
+end: 0.5
+}
+]
+}
+
+
+
+}
+{
+type: RegionPart
+suffix: "-piston"
+mirror: false
+x: -5.5
+
+rotation: 90
+xScl: 1.57
+yScl: 1.57143
+
+growX: -0.571429
+growY: -0.571429
+growProgress: {
+type: reload
+
+ops: [
+{
+op: curve
+interp: bounceOut
+}
+{
+op: compress
+start: 0
+end: 0.5
+}
+]
+}
+
+
+
+}
+{
+type: RegionPart
+suffix: "-piston"
+mirror: false
+x: 5.5
+
+rotation: 90
+xScl: 1.57
+yScl: 1.57143
+
+growX: -0.571429
+growY: -0.571429
+growProgress: {
+type: reload
+
+ops: [
+{
+op: curve
+interp: bounceOut
+}
+{
+op: compress
+start: 0
+end: 0.5
+}
+]
+}
+
+
+
+}
+{
+type: RegionPart
+suffix: "-piston"
+mirror: false
+
+rotation: 90
+xScl: 1.57
+yScl: 1.57143
+
+growX: -0.571429
+growY: -0.571429
+growProgress: {
+type: reload
+
+ops: [
+{
+op: curve
+interp: bounceOut
+}
+{
+op: compress
+start: 0
+end: 0.5
+}
+]
+}
+
+
+
+}
+]
+
+}
+]
