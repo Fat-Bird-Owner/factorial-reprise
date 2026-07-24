@@ -13,13 +13,13 @@ type: RegionPart
 suffix: "-crusher"
 
 rotation: 90
-xScl: 1.20
+xScl: 1.15
 yScl: 1.20
 
-growX: -0.20
-growY: -0.20
+growX: -0.15
+growY: -0.15
 growProgress: {
-type: recoil
+type: reload
 
 ops: [
 {
