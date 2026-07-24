@@ -10,6 +10,8 @@ parts: [
 {
 type: RegionPart
 suffix: "-crusher"
+
+rotation: 90
 xScl: 1.25
 yScl: 1.25
 
