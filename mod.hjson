@@ -15,7 +15,7 @@ Resprites a number of blocks such as:[orange[]]
 hidden: true
 iosCompatible: true
 version: "v1"
-minGameVersion: "159.7"
+minGameVersion: "159"
 dependencies: []
 
 contentOrder:[]
