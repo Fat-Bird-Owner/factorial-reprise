@@ -1,7 +1,7 @@
 craftEffect: {
 type: ParticleEffect
 interp: sineOut
-particles: 4
+particles: 5
 
 colorFrom: 7f7f7fff
 colorTo: 87878700
