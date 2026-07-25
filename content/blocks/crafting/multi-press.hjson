@@ -5,7 +5,7 @@ outlineRadius: 0
 drawer: [
 {
 type: DrawRegion
-x: 0.25
+x: -0.125
 }
 {
 type: DrawBlockParts
