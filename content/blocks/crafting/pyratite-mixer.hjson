@@ -1,7 +1,8 @@
 fullOveride: "block-pyratite-mixer-ui"
-craftEffect: {
+updateEffectChance: 0.1
+updateEffect: {
 type: WrapEffect
-effect: smeltsmoke
+effect: mine
 color: ffaa5f
 }
 
