@@ -18,7 +18,7 @@ yScl: 1
 growX: -0.539
 growY: -0.539
 growProgress: {
-type: reload
+type: heat
 
 ops: [
 {
@@ -28,7 +28,7 @@ end: 1
 }
 {
 op: curve
-interp: bounceOut
+interp: bounce
 }
 ]
 }
@@ -43,6 +43,6 @@ interp: bounceOut
 type: DrawGlowRegion
 suffix: "-top"
 color: cbd97f
-alpha: 0.5
+alpha: 0.2
 }
 ]
