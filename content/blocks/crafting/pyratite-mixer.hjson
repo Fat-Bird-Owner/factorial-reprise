@@ -1,3 +1,4 @@
+fullOveride: "block-pyratite-mixer-ui"
 drawer: [
 {
 type: DrawDefault
