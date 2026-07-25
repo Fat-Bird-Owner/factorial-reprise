@@ -18,13 +18,12 @@ yScl: 1
 growX: -0.539
 growY: -0.539
 growProgress: {
-type: heat
+type: reload
 
 ops: [
 {
-op: compress
-start: 0
-end: 1
+op: add
+amount: 30
 }
 {
 op: curve
