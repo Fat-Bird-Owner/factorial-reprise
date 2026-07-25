@@ -1,0 +1,11 @@
+drawer: [
+{
+type: DrawDefault
+}
+{
+type: DrawBlurSpin
+suffix: "-rotator"
+blurThres: 1
+rotateSpeed: 1.25
+}
+]
