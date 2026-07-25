@@ -1,4 +1,5 @@
 updateEffectChance: 0.75
+updateEffectSpread: 0.1
 updateEffect: {
 type: RadialEffect
 lengthOffset: 6.25
@@ -8,9 +9,9 @@ type: ParticleEffect
 interp: sineOut
 particles: 2
 
-colorFrom: 6ecdecff
-colorTo: 6ecdec00
-lightColor: 6ecdecff
+colorFrom: 596ab877
+colorTo: 596ab800
+lightColor: 596ab8ff
   
 cone: 11
 baseRotation: 0
