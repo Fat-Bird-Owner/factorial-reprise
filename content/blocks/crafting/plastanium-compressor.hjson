@@ -23,7 +23,7 @@ type: smoothReload
 ops: [
 {
 op: curve
-interp: bounceOut
+interp: bounceIn
 }
 ]
 }
