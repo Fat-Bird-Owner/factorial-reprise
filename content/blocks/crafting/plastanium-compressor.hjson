@@ -16,8 +16,11 @@ rotation: 90
 xScl: 0.6
 yScl: 0.6
 
-growX: 0.4
-growY: 0.4
+moves: [
+{
+
+gx: 0.4
+gy: 0.4
 growProgress: {
 type: smoothReload
 
@@ -26,6 +29,11 @@ ops: [
 op: curve
 interp: bounceIn
 }
+{
+op: compress
+start: 0
+end: 0.5
+}
 ]
 }
 
@@ -33,6 +41,38 @@ interp: bounceIn
 
 }
 ]
+# e
+
+}
+{
+
+gx: -0.4
+gy: -0.4
+growProgress: {
+type: smoothReload
+
+ops: [
+{
+op: curve
+interp: bounceIn
+}
+{
+op: compress
+start: 0.5
+end: 1
+}
+]
+}
+
+
+
+}
+]
+# e
+
+}
+]
+
 
 }
 ]
