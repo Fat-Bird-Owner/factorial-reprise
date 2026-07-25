@@ -12,11 +12,11 @@ type: RegionPart
 suffix: "-piston"
 
 rotation: 90
-xScl: 0.45
-yScl: 0.45
+xScl: 0.6
+yScl: 0.6
 
-growX: 0.55
-growY: 0.55
+growX: 0.4
+growY: 0.4
 growProgress: {
 type: smoothReload
 
