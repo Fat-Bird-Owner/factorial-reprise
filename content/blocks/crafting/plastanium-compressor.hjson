@@ -27,13 +27,9 @@ drawer: [
 
               ops: [
                 {
-                  op: curve
-                  interp: bounceIn
-                }
-                {
                   op: compress
                   start: 0
-                  end: 0.5
+                  end: 0.2
                 }
               ]
             }
@@ -52,8 +48,8 @@ drawer: [
                 }
                 {
                   op: compress
-                  start: 0.5
-                  end: 1
+                  start: 0.4
+                  end: 0.8
                 }
               ]
             }
