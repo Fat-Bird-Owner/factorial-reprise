@@ -1,3 +1,4 @@
+updateEffect: none
 outlineRadius: 0
 drawer: [
 {
@@ -33,11 +34,5 @@ interp: bounceIn
 }
 ]
 
-}
-{
-type: DrawGlowRegion
-suffix: "-top"
-color: ff795e
-alpha: 0.33
 }
 ]
