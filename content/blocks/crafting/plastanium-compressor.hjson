@@ -14,13 +14,13 @@ drawer: [
         suffix: "-piston"
 
         rotation: 90
-        xScl: 0.6
-        yScl: 0.6
+        xScl: 1
+        yScl: 1
 
         moves: [
           {
-            gx: 0.4
-            gy: 0.4
+            gx: -0.4
+            gy: -0.4
 
             progress: {
               type: smoothReload
@@ -35,8 +35,8 @@ drawer: [
             }
           }
           {
-            gx: -0.4
-            gy: -0.4
+            gx: 0.4
+            gy: 0.4
 
             progress: {
               type: smoothReload
