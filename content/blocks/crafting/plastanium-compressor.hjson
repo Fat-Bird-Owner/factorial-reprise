@@ -37,7 +37,7 @@ interp: bounceIn
 {
 type: DrawGlowRegion
 suffix: "-top"
-color: cbd97f
-alpha: 0.2
+color: ff795e
+alpha: 0.33
 }
 ]
