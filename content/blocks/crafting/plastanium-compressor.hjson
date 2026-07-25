@@ -1,0 +1,48 @@
+outlineRadius: 0
+drawer: [
+{
+type: DrawDefault
+}
+{
+type: DrawBlockParts
+
+parts: [
+{
+type: RegionPart
+suffix: "-piston"
+
+rotation: 90
+xScl: 1
+yScl: 1
+
+growX: -0.539
+growY: -0.539
+growProgress: {
+type: reload
+
+ops: [
+{
+op: compress
+start: 0
+end: 1
+}
+{
+op: curve
+interp: bounceOut
+}
+]
+}
+
+
+
+}
+]
+
+}
+{
+type: DrawGlowRegion
+suffix: "-top"
+color: cbd97f
+alpha: 0.5
+}
+]
