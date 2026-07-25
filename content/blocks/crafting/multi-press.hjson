@@ -4,7 +4,8 @@ fullOverride: "multi-press"
 outlineRadius: 0
 drawer: [
 {
-type: DrawDefault
+type: DrawRegion
+x: 0.25
 }
 {
 type: DrawBlockParts
