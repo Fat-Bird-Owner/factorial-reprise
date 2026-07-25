@@ -1,4 +1,5 @@
-craftEffect: {
+updateEffectChance: 0.75
+updateEffect: {
 type: RadialEffect
 lengthOffset: 6.25
   
@@ -12,12 +13,12 @@ colorTo: 6ecdec00
 lightColor: 6ecdecff
   
 cone: 11
-baseRotation: 45
+baseRotation: 0
 lightScl: 0
   
-length: 35
-sizeFrom: 2
-sizeTo: 6
+length: 17.5
+sizeFrom: 1
+sizeTo: 2
 layer: 44
 lifetime: 79
 }
