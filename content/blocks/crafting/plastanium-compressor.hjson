@@ -1,69 +1,65 @@
 craftEffect: none
 outlineRadius: 0
+
 drawer: [
-{
-type: DrawDefault
-}
-{
-type: DrawBlockParts
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawBlockParts
 
-parts: [
-{
-type: RegionPart
-suffix: "-piston"
+    parts: [
+      {
+        type: RegionPart
+        suffix: "-piston"
 
-rotation: 90
-xScl: 0.6
-yScl: 0.6
+        rotation: 90
+        xScl: 0.6
+        yScl: 0.6
 
+        moves: [
+          {
+            gx: 0.4
+            gy: 0.4
 
-moves: [
-{
+            growProgress: {
+              type: smoothReload
 
-gx: 0.4
-gy: 0.4
-growProgress: {
-type: smoothReload
+              ops: [
+                {
+                  op: curve
+                  interp: bounceIn
+                }
+                {
+                  op: compress
+                  start: 0
+                  end: 0.5
+                }
+              ]
+            }
+          }
+          {
+            gx: -0.4
+            gy: -0.4
 
-ops: [
-{
-op: curve
-interp: bounceIn
-}
-{
-op: compress
-start: 0
-end: 0.5
-}
-]
-}
+            growProgress: {
+              type: smoothReload
 
-}
-{
-
-gx: -0.4
-gy: -0.4
-growProgress: {
-type: smoothReload
-
-ops: [
-{
-op: curve
-interp: bounceIn
-}
-{
-op: compress
-start: 0.5
-end: 1
-}
-]
-}
-
-
-
-}
-]
-# 
-
-}
+              ops: [
+                {
+                  op: curve
+                  interp: bounceIn
+                }
+                {
+                  op: compress
+                  start: 0.5
+                  end: 1
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
 ]
