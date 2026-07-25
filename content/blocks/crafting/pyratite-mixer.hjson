@@ -1,5 +1,5 @@
 fullOveride: "block-pyratite-mixer-ui"
-updateEffectChance: 0.1
+updateEffectChance: 0.01
 updateEffect: {
 type: WrapEffect
 effect: mine
