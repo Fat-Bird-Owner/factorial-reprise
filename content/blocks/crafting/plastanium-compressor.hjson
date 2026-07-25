@@ -22,7 +22,7 @@ drawer: [
             gx: 0.4
             gy: 0.4
 
-            growProgress: {
+            progress: {
               type: smoothReload
 
               ops: [
@@ -42,7 +42,7 @@ drawer: [
             gx: -0.4
             gy: -0.4
 
-            growProgress: {
+            progress: {
               type: smoothReload
 
               ops: [
