@@ -1,4 +1,10 @@
 fullOveride: "block-pyratite-mixer-ui"
+craftEffect: {
+type: WrapEffect
+effect: smeltsmoke
+color: ffaa5f
+}
+
 drawer: [
 {
 type: DrawDefault
