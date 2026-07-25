@@ -1,0 +1,25 @@
+craftEffect: {
+type: RadialEffect
+lengthOffset: 6.25
+  
+effect: {
+type: ParticleEffect
+interp: sineOut
+particles: 2
+
+colorFrom: 6ecdecff
+colorTo: 6ecdec00
+lightColor: 6ecdecff
+  
+cone: 11
+baseRotation: 45
+lightScl: 0
+  
+length: 35
+sizeFrom: 2
+sizeTo: 6
+layer: 44
+lifetime: 79
+}
+  
+}
