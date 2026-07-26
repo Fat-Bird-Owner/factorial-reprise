@@ -5,12 +5,7 @@ type: DrawDefault
 {
 type: DrawPistons
 sinMag: 1.6
-}
-{
-type: DrawBlurSpin
-blurThresh: 1
-suffix: "-rotator"
-rotateSpeed: 5
+lenOffset: 0
 }
 {
 type: DrawRegion
