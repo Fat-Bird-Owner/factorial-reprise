@@ -4,7 +4,7 @@ type: DrawDefault
 }
 {
 type: DrawPistons
-sinMag: 0.8
+sinMag: 1.6
 }
 {
 type: DrawBlurSpin
