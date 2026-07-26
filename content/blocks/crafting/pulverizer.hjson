@@ -11,4 +11,10 @@ lenOffset: 0
 type: DrawRegion
 suffix: "-top"
 }
+{
+type: DrawBlurSpin
+suffix: "-rotator"
+rotateSpeed: 5
+blurThresh: 1
+}
 ]
