@@ -1,0 +1,17 @@
+drawer: [
+{
+type: DrawDefault
+}
+{
+type: DrawPistons
+}
+{
+type: DrawBlurSpin
+blurThresh: 1
+suffix: "-rotator"
+}
+{
+type: DrawRegion
+suffix: "-top"
+}
+]
