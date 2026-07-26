@@ -1,4 +1,4 @@
-craftEffect: {
+effect: {
 type: ParticleEffect
 interp: sineOut
 particles: 2
@@ -7,7 +7,7 @@ colorFrom: 7f7f7fff
 colorTo: 87878700
 lightColor: 767676ff
   
-cone: 22.5
+cone: 10.75
 baseRotation: 45
 lightScl: 0
   
