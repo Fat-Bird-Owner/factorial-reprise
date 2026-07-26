@@ -4,11 +4,13 @@ type: DrawDefault
 }
 {
 type: DrawPistons
+sinMag: 0.4
 }
 {
 type: DrawBlurSpin
 blurThresh: 1
 suffix: "-rotator"
+rotateSpeed: 5
 }
 {
 type: DrawRegion
