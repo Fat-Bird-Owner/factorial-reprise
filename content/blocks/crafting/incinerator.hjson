@@ -1,7 +1,7 @@
 effect: {
 type: ParticleEffect
 interp: sineOut
-particles: 2
+particles: 4
 
 colorFrom: 7f7f7fff
 colorTo: 87878700
