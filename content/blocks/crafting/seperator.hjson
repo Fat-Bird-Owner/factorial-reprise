@@ -1,0 +1,15 @@
+drawer: [
+{
+type: DrawBlurSpin
+suffix: "-rotator"
+rotateSpeed: 9
+}
+{
+type: DrawLiquidTile
+drawLiquid: slag
+alpha: 0.33
+}
+{
+type: DrawDefault
+}
+]
