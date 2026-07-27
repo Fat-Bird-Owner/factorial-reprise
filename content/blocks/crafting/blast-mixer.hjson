@@ -1,0 +1,18 @@
+updateEffectChance: 0.0075
+updateEffect: {
+type: WrapEffect
+effect: mine
+color: ff795e
+}
+
+drawer: [
+{
+type: DrawDefault
+}
+{
+type: DrawBlurSpin
+suffix: "-rotator"
+blurThresh: 1
+rotateSpeed: 2
+}
+]
