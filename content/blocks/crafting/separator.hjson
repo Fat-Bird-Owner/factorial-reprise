@@ -3,6 +3,7 @@ drawer: [
 type: DrawBlurSpin
 suffix: "-rotator"
 rotateSpeed: 9
+blurThresh: 1
 }
 {
 type: DrawLiquidTile
