@@ -13,7 +13,7 @@ cone: 22.5
 baseRotation: 45
 lightScl: 0
   
-length: 35
+length: 17.5
 sizeTo: 2
 sizeTo: 6
 layer: 114
@@ -26,8 +26,8 @@ type: DrawDefault
 }
 {
 type: DrawGlowRegion
-color: F2A65EFF
+color: F2A65E
 suffix: "-glow"
-alpha: 0.3
+alpha: 0.5
 }
 ]
