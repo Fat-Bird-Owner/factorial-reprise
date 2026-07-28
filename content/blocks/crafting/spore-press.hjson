@@ -1,4 +1,4 @@
-updateEffectSpread: 1
+updateEffectSpread: 0.5
 updateEffectChance: 0.2
 updateEffect: {
 type: ParticleEffect
@@ -6,7 +6,7 @@ interp: sineOut
 particles: 1
 
 colorFrom: 5f5f5f
-colorTo: 7f7f7f00
+colorTo: 6f6f6f
 lightColor: 7f7f7f00
   
 cone: 22.5
@@ -27,6 +27,6 @@ type: DrawDefault
 {
 type: DrawGlowRegion
 color: F2A65EFF
-suffic: "-glow"
+sufficx: "-glow"
 }
 ]
