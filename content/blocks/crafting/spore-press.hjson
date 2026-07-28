@@ -1,3 +1,24 @@
+updateEffectSpread: 1
+updateEffectChancem 0.2
+updateEfect: {
+type: ParticleEffect
+interp: sineOut
+particles: 1
+
+colorFrom: 5f5f5f
+colorTo: 7f7f7f00
+lightColor: 7f7f7f00
+  
+cone: 22.5
+baseRotation: 45
+lightScl: 0
+  
+length: 35
+sizeTo: 6
+layer: 114
+lifetime: 90
+}
+
 drawer: [
 {
 type: DrawDefault
