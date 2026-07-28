@@ -28,6 +28,7 @@ type: DrawDefault
 type: DrawGlowRegion
 color: F2A65E
 suffix: "-glow"
-alpha: 0.5
+blending: normal
+alpha: 0.44
 }
 ]
