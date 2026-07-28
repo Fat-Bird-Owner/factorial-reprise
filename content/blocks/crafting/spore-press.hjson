@@ -27,6 +27,7 @@ type: DrawDefault
 {
 type: DrawGlowRegion
 color: F2A65EFF
-sufficx: "-glow"
+suffix: "-glow"
+alpha: 0.3
 }
 ]
