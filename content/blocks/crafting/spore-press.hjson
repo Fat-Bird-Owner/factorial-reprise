@@ -1,0 +1,10 @@
+drawer: [
+{
+type: DrawDefault
+}
+{
+type: DrawGlowRegion
+color: F2A65EFF
+suffic: "-glow"
+}
+]
