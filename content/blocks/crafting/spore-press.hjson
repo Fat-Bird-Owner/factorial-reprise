@@ -1,6 +1,6 @@
 updateEffectSpread: 1
-updateEffectChancem 0.2
-updateEfect: {
+updateEffectChance: 0.2
+updateEffect: {
 type: ParticleEffect
 interp: sineOut
 particles: 1
