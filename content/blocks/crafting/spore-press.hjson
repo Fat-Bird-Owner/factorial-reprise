@@ -14,6 +14,7 @@ baseRotation: 45
 lightScl: 0
   
 length: 35
+sizeTo: 2
 sizeTo: 6
 layer: 114
 lifetime: 90
