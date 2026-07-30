@@ -27,6 +27,7 @@ type: DrawDefault
 type: DrawGlowRegion
 suffix: "-glow"
 color: ffaa5f
+alpha: 0.5
 }
 {
 type: DrawGlowRegion
