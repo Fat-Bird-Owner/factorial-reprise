@@ -3,7 +3,7 @@ updateEffectSpread: 0.25
 updateEffect: {
 type: ParticleEffect
 interp: sineOut
-particles: 1
+particles: 2
 
 colorFrom: 7f7f7fff
 colorTo: 87878700
