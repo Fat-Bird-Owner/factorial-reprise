@@ -25,6 +25,11 @@ type: DrawDefault
 }
 {
 type: DrawGlowRegion
+suffix: "-glow"
+color: ffaa5f
+}
+{
+type: DrawGlowRegion
 suffix: "-top"
 color: FFD37F
 }
