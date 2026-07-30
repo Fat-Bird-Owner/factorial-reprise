@@ -1,4 +1,6 @@
-craftEffect: {
+updateEffectChance: 0.25
+updateEffectSpread: 0.25
+updateEffect: {
 type: ParticleEffect
 interp: sineOut
 particles: 8
